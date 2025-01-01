@@ -17,9 +17,9 @@ def submit():
     
     response = {
         'status': 'success',
-        'message': f'Thank you {name}, we have received your message.'
+        'message': f'Thank you {name}, we have received your messages.'
     }
-    print(f"Received Data - Name: {name}, Email: {email}, Message: {message}")
+    print(f"Received Data - Name: {name}, Email: {email}, Messages: {message}")
     
     return jsonify(response)
 
