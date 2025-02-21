@@ -12,3 +12,5 @@ __pycache__/*
 *.ipynb
 
 Desktop/*
+
+ex.sql
