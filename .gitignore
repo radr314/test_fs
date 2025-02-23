@@ -14,3 +14,6 @@ __pycache__/*
 Desktop/*
 
 ex.sql
+
+__pycache__/*
+*.pyc
