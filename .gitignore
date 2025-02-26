@@ -17,3 +17,5 @@ ex.sql
 
 __pycache__/*
 *.pyc
+
+DE/logs/*
