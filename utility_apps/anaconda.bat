@@ -3,12 +3,12 @@ echo Script started at %DATE% %TIME% > logs/script.log
 
 :: Ensure Anaconda is activated
 echo Activating Anaconda...
-call "C:\Users\ranad\anaconda3\Scripts\activate.bat"
+call "%USERPROFILE%\anaconda3\Scripts\activate.bat"
 
 
 :: Change directory
 echo Changing directory...
-cd "C:\Users\ranad\Desktop\"
+cd "%USERPROFILE%\Desktop\"
 
 :: Activate Conda environment
 echo Activating Conda environment: torch-stable
