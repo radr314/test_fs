@@ -27,3 +27,5 @@ google-api-python-client = "^2.163.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+package-mode = false
