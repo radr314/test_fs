@@ -1,9 +1,9 @@
-import requests
+# import requests
 from dotenv import load_dotenv
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 import base64
-import email
+# import email
 from pathlib import Path
 
 
