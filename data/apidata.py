@@ -53,5 +53,3 @@ dtype_mapping={
 }
 
 df_ranking=get_ranking(tennis_api_key=Tennis_API_KEY, engine=engine,dtype_mapping=dtype_mapping)
-
-df_ranking.__class__
